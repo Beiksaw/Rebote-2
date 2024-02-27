@@ -43,11 +43,11 @@ public class NewBehaviourScript : MonoBehaviour
       {
         fuerza_x = fuerza_x + 10;
       }
-       if(Input.GetKeyDown(KeyCode.W))
+       if(Input.GetKeyDown(KeyCode.S))
       {
         fuerza_z = fuerza_z - 10;
       }
-       if(Input.GetKeyDown(KeyCode.S))
+       if(Input.GetKeyDown(KeyCode.W))
       {
         fuerza_z = fuerza_z + 10;
       }

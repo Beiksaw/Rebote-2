@@ -19,8 +19,10 @@ public class CUBO : MonoBehaviour
         
     }
 private void OnTriggerEnter(Collider c){
-    Debug.Log("choque tipo trigger");
-    puntos++;
+    Debug.Log("choque tipo trigger"+ c.gameObject.name);
+    if (c.gameObject.tag == "Player")
+    {puntos++;
     textoPuntos.text = puntos.ToString();
+    }
 }
 }
